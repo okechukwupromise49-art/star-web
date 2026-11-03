@@ -1,4 +1,4 @@
-import Solar from "../assets/Solar.webp";
+import Solar from "../assets/Solar.jpg";
 import Machine from "../assets/Machine.jpg";
 import Cctv from "../assets/Cctv.jpg"
 import App from "../assets/App.png"
