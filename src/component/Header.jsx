@@ -39,6 +39,11 @@ export  function Heading() {
               onClick={() => navigate('/service')}>
               Services
             </span>
+            <span 
+              className="hover:text-blue-600 transition cursor-pointer"
+              onClick={() => navigate('/book')}>
+              Book  Now
+            </span>
           </div>
 
           {/* Search + Join Button */}
@@ -81,6 +86,9 @@ export  function Heading() {
               </span>
               <span onClick={() => { navigate('/service'); setMenuOpen(false); }} className="hover:text-blue-600 cursor-pointer">
                 Services
+              </span>
+              <span onClick={() => { navigate('/book'); setMenuOpen(false); }} className="hover:text-blue-600 cursor-pointer">
+                Book Now
               </span>
 
               <div className="pt-4 border-t">

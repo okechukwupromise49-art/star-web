@@ -6,6 +6,7 @@ import { Apply } from "./page/Apply";
 
 import { Services } from "./page/Services";
 import { NavBar } from "./component/NarBars";
+import { BookNow } from "./page/BookNow";
 
 
 
@@ -21,6 +22,7 @@ function App() {
         <Route path="/apply" element={<Apply />} />
         <Route path="/service" element={<Services/>} />
         <Route path="/nar" element={<NavBar/>} />
+        <Route path="/book" element={<BookNow/>} />
       </Routes>
       
     </>

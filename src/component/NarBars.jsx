@@ -21,11 +21,11 @@ export function NavBar() {
                     </h1>
 
                     <p className="text-gray-600 text-lg md:text-xl leading-relaxed mb-8">
-                        Achieve your career goals with Star Tech. We create innovative tech solutions 
-                        that empower businesses and individuals. From software development to digital 
-                        transformation  powered by AI, cloud, and modern technologies.
-                    </p>
-
+                        We specialize in Full-Stack MERN development, website and mobile app
+                        development, custom software solutions, and professional solar installation.
+                        At Star Tech Solar & Dev Solutions, we turn ideas into powerful digital products
+                        while delivering reliable solar energy solutions for homes and businesses.
+                        </p>
                     <button 
                         onClick={() => navigate('/apply')}
                         className="mt-4 bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 

@@ -1,34 +1,41 @@
+import Solar from "../assets/Solar.jpg";
+import Machine from "../assets/Machine.jpg";
+import Cctv from "../assets/Cctv.jpg"
+import App from "../assets/App.png"
+import Ui from "../assets/Ui.png"
+import Web from "../assets/Web.png"
+
 export  function Service() {
   const services = [
     {
       title: "Web Development",
       desc: "Build responsive, fast, and modern websites tailored to your business needs.",
-      img: "/images/service1.png",
+      img: Web,
     },
     {
       title: "Mobile App Development",
       desc: "Native and cross-platform mobile apps for Android & iOS with excellent user experience.",
-      img: "/images/service2.png",
+      img: App,
     },
     {
       title: "UI/UX Design",
       desc: "Creative and user-centered designs that deliver exceptional digital experiences.",
-      img: "/images/service3.png",
+      img: Ui,
     },
     {
-      title: "Solar Installation",
+      title: " Installation",
       desc: "Reliable and efficient solar power solutions for homes and businesses.",
-      img: "/images/solar.png", // Replace with your actual image
+      img: Solar,
     },
     {
       title: "Photocopier Repair",
       desc: "Expert maintenance and repair services for photocopiers and printers.",
-      img: "/images/photocopier.png", // Replace with your actual image
+      img: Machine, 
     },
     {
       title: "CCTV Installation",
       desc: "Professional security camera installation with 24/7 surveillance systems.",
-      img: "/images/cctv.png", // Replace with your actual image
+      img: Cctv, 
     },
   ];
 
@@ -56,7 +63,7 @@ export  function Service() {
               <img
                 src={service.img}
                 alt={service.title}
-                className="w-28 h-28 object-contain transition-transform duration-500 group-hover:scale-110"
+                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
               />
               {/* Optional overlay gradient */}
               <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition" />

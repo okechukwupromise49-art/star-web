@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 
 
-import { Client } from "../component/Client"
+//import { Client } from "../component/Client"
 import { Service } from "../component/Service"
 import { Footer } from "../component/Footer"
 import { NavBar } from "../component/NarBars"
@@ -12,8 +12,8 @@ export function Home(){
         <>
           <Heading/>
           <NavBar/>
-          <Client/>
-          <Service/>
+         {/**<Client/> */}
+         <Service/>
           <Footer/>
           
 
