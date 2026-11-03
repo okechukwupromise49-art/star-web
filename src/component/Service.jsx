@@ -1,8 +1,8 @@
-import Solar from "../assets/Solar.jpg";
+import Solar from "../assets/Solar.webp";
 import Machine from "../assets/Machine.jpg";
 import Cctv from "../assets/Cctv.jpg"
 import App from "../assets/App.png"
-import Ui from "../assets/Ui.png"
+import Ui from "../assets/Ui.jpg"
 import Web from "../assets/Web.png"
 
 export  function Service() {
