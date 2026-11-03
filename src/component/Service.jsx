@@ -2,7 +2,7 @@ import Solar from "../assets/Solar.webp";
 import Machine from "../assets/Machine.jpg";
 import Cctv from "../assets/Cctv.jpg"
 import App from "../assets/App.png"
-import Ui from "../assets/Ui.jpg"
+import Ml from "../assets/Ml.jpg"
 import Web from "../assets/Web.png"
 
 export  function Service() {
@@ -18,9 +18,9 @@ export  function Service() {
       img: App,
     },
     {
-      title: "UI/UX Design",
-      desc: "Creative and user-centered designs that deliver exceptional digital experiences.",
-      img: Ui,
+      title: "AI/ML Engineer",
+      desc: "Building intelligent solutions with machine learning, deep learning, and AI technologies to solve real-world problems, automate processes, and unlock valuable insights.",
+      img: Ml,
     },
     {
       title: " Installation",
